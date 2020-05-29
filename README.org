@@ -1,1 +1,21 @@
 * Pre Work
+
+** Set up your environment
+
+1. First install the Java Development Kit. Here are videos stepping
+   you through the process:
+
+   - [[https://youtu.be/l6AQNTqSDS8][Windows 10]]
+   - Mac
+   - Linux
+
+2. Set up git and GitHub. 
+   - *Linux* - git should be installed. If it isn't and you're using
+     Ubuntu you can install it by runing ~sudo apt-get install git~
+     from the terminal.
+   - *Mac* - git should be installed already 
+   - *Windows*  - follow the instructions in this [[https://youtu.be/chKaJBJYlAE][video]]. 
+
+3. Set up GitHub ssh keys.
+
+   Follow this video walkthrough: [[https://youtu.be/AUFFudCXo0M][video]]
