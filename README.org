@@ -19,3 +19,9 @@
 3. Set up GitHub ssh keys.
 
    Follow this video walkthrough: [[https://youtu.be/AUFFudCXo0M][video]]
+
+* Learn the basics of Git and GitHub
+
+* Accept the GitHub Classroom assignment link
+
+Follow this link to create your assignments repository: [[https://classroom.github.com/a/1ubYcbCS][link]]
