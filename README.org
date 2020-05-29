@@ -25,3 +25,7 @@
 * Accept the GitHub Classroom assignment link
 
 Follow this link to create your assignments repository: [[https://classroom.github.com/a/1ubYcbCS][link]]
+
+* Java resources
+- https://horstmann.com/sjsu/cs046/
+- https://chortle.ccsu.edu/Java5/index.html#03
