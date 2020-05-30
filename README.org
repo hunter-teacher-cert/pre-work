@@ -44,6 +44,4 @@ you through setting everything up.
 4. Assignment 4 - Arrays - [[./pre04.org][link]]
 5. Note - chapter 1.5 of the text concerns graphics and is optional
 6. Review chapter 1.6 from the text - nothing to submit.
-7. Functions
-
-
+7. Assignment 5 - functions (methods) - [[./pre05.org][link]]
