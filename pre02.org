@@ -1,0 +1,12 @@
+* Assignment 2
+
+Read sections 1.2 (1.2.1 through 1.2.5) from the [[https://introcs.cs.princeton.edu/java/10elements/][text book]]. 
+
+Choose three of the exercises from the chapter and write programs to
+solve them. Note that the solutions are already published in the
+book. Attempt them without looking at the solutions first but feel
+free to look at solutions to other exercises for assistance.
+
+Add the ~.java~ files for your three solutions to the assignment repos
+under a folder named ~pre02~ and push them up to GitHub.
+
