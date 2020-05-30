@@ -22,6 +22,14 @@
 
 * Learn the basics of Git and GitHub
 
+There are tons of git and GitHub resources on the web including
+videos, tutorials and more.
+Start by watching this video on what git and GitHub are: [[https://www.youtube.com/watch?v=r50BKIFGCI0][link]]
+Then watch this this video on how we'll use git and GitHub: [[https://youtu.be/b_bhCJn9xcc][link]]
+
+Then if things aren't clear, just search for git and GitHub
+tutorials - there are tons online.
+
 ** Essential commands
 
 Note that the descriptions here refer to how we're using these
