@@ -54,6 +54,40 @@ commands. Some of them do far more than what's described.
 - when you're done
   - a final ~git push~
 
+** When you get a merge conflict
+
+Sometimes when you try to commit your changes git will give you an
+error and say you have to resolve a merge conflict manually. This
+sounds scary but it's pretty easy.
+
+First, edit the file in question. You'll see something like the
+following:
+
+#+begin_example
+<<<<<<< HEAD
+echo "Hello World!"
+hello hello
+ worddddddddd
+=======
+echo "Hello World"
+>>>>>>> newbranch
+#+end_example
+
+Look for the sections with the *>>>>>>>>*, *=======*, and *<<<<<*
+sections. These represent the two versions git is trying to
+merge. Just edit the file manually to make it look the way you want. 
+
+Then save the file. Repeat this with any other files that have merge
+conflicts and then complete the commit.
+
+** Remember when all else fails
+
+When all else fails you can always do the following: 
+1. Rename the folder/directory with the repository
+2. Clone a new local copy
+3. Copy over anything you need from the old renamed copy
+4. continue working in the new copy
+
 
 * Accept the GitHub Classroom assignment link
 
