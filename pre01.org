@@ -1,7 +1,6 @@
 * Assignment 1
 
-The video on the bottom of this page will walk you through this entire
-assignment. 
+Link to assignment walkthrough: [[https://youtu.be/Owqp3MIZG9E][link]] 
 
 * First time only setup
 
@@ -84,5 +83,3 @@ review and consider the questions at the end of the chapter.
 
 Congratulations again, you've successfully written your first program
 and pushed it to GitHub!!!!!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Owqp3MIZG9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
