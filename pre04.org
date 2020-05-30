@@ -1,0 +1,32 @@
+* Assignment 4 - Arrays
+
+Read section 1.4 from the [[https://introcs.cs.princeton.edu/java/14array/index.php#1.4.1][class text]].
+
+Arrays in Java are similar to Arrays in Javascript or lists in
+Python. They are, however, more primatave.
+
+In Java you have to declare variables with their types so while a Java
+array can hold many items they all have to be of the same type. You
+also have to specify the number of items an array can hold when you
+create it.
+
+The following code would create an array that can store 5 integers: 
+
+#+begin_src java
+int[] a;
+a = new int[5];
+
+#+end_src
+
+The first one is stored in ~a[0]~ the fifth in ~a[5]~. If you try to
+access an array out of bounds say, a[-1] or a[5] in this case, you'll
+get an error. You also can't print it all in one shot like you can in
+Python or Java. The chapter has the rest of the details.
+
+* Assignment 
+
+select two exercises from the section that require arrays and write
+solutions. Add them to your assignments repo under the folder ~pre04~
+and push them to GitHub.
+
+

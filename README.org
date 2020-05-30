@@ -33,4 +33,7 @@ Follow this link to create your assignments repository: [[https://classroom.gith
 * Assignments:
 1. Assignment 1 - Hello world! - [[./pre01.org][link]]
 2. Assignment 2 - Data types - [[./pre02.org][link]]
-3. Assignment 3 
+3. Assignment 3 - Conditionals and loops - [[./pre03.org][link]]
+4. Assignment 4 - Arrays - [[./pre04.org][link]]
+5. Note - chapter 1.5 of the text concerns graphics and is optional
+6. Review chapter 1.6 from the text - nothing to submit.
