@@ -36,6 +36,7 @@ commands. Some of them do far more than what's described.
 | commit   | record changes to the local repo   | git commit file -m "message" |
 | push     | Push pending changes to GitHub     | git push                     |
 | pull     | Retrieve newer changes from GitHub | git pull                     |
+| reset    | unstage a commit                   | git reset filename           |
 | checkout | revert a file to last commit       | git checkout filename        |
 
 ** Workflow
@@ -46,7 +47,7 @@ commands. Some of them do far more than what's described.
 - ~git rm~ when you're deleting a file
 - ~git mv~ when you need to move or rename a file
 *** Typical day to day flow.
-- when you start: ~git pull~
+- when you start: change into the repo directory and issue a ~git pull~
 - as you work
   - ~git commit~ frequently
   - ~git push~ periodically
