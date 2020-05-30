@@ -29,6 +29,7 @@ commands. Some of them do far more than what's described.
 
 | Command  | Description                        | Example                      |
 |----------+------------------------------------+------------------------------|
+| clone    | make a local copy of a remote repo | git clone repoaddress        |
 | add      | adds a file to the repository      | git add Hello.java           |
 | rm       | removes / deletes a file           | git rm Hello.java            |
 | mv       | rename / move a file               | git mv oldname newname       |
@@ -38,6 +39,20 @@ commands. Some of them do far more than what's described.
 | checkout | revert a file to last commit       | git checkout filename        |
 
 ** Workflow
+*** do once
+- ~git clone~ to make a local copy of a GitHub repo
+*** do periodically
+- ~git add~ when you are adding a new file
+- ~git rm~ when you're deleting a file
+- ~git mv~ when you need to move or rename a file
+*** Typical day to day flow.
+- when you start: ~git pull~
+- as you work
+  - ~git commit~ frequently
+  - ~git push~ periodically
+  - use the above periodic commands when the situation arises
+- when you're done
+  - a final ~git push~
 
 
 * Accept the GitHub Classroom assignment link
