@@ -26,9 +26,12 @@
 
 Follow this link to create your assignments repository: [[https://classroom.github.com/a/LQFq7rWm][link]]
 
+
 This will create a GitHub repository that you will use to submit your
 assignments. The video under prework assignment one below will step
 you through setting everything up.  
+
+
 
 
 * Java resources

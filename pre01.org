@@ -3,8 +3,24 @@
 The video on the bottom of this page will walk you through this entire
 assignment. 
 
+* First time only setup
 
-* Setup
+If you haven't accepted the GitHub classroom assignment yet, do so by
+following this [[https://classroom.github.com/a/LQFq7rWm][link]].
+
+Once finished, click on the repo link (or go to your GitHub account
+and then to this new repo). clone by doing the following:
+
+1. open a terminal
+2. switch to the directory under which you want to clone the
+   repository. I recommend your Desktop if you're using Windows. 
+3. Clone the repo using the *ssh* option.
+4. Edit the README.org file by adding your name and GitHub user name.
+5. Save the file
+6. ~git commit README.org -m "added names"~
+7. ~git push~
+
+* Every time Setup
 
 Make sure this repo is up to date by:
 1. opening a terminal
@@ -69,3 +85,4 @@ review and consider the questions at the end of the chapter.
 Congratulations again, you've successfully written your first program
 and pushed it to GitHub!!!!!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Owqp3MIZG9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
