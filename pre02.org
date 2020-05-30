@@ -1,4 +1,4 @@
-* Assignment 2
+* Assignment 2 - data types
 
 Read sections 1.2 (1.2.1 through 1.2.5) from the [[https://introcs.cs.princeton.edu/java/10elements/][text book]]. 
 

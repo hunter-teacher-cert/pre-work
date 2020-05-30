@@ -27,9 +27,10 @@
 Follow this link to create your assignments repository: [[https://classroom.github.com/a/1ubYcbCS][link]]
 
 * Java resources
-- [[https://introcs.cs.princeton.edu/java/10elements/][CS - Sedgewick / Wayne - class text]]
+- [[https://introcs.cs.princeton.edu/java/][CS - Sedgewick / Wayne - class text]]
 - [[https://horstmann.com/sjsu/cs046/][Intro to Java - Udacity CS046]]
 - [[https://chortle.ccsu.edu/Java5/index.html#03][Intro to CS using Java - Kjell]]
 * Assignments:
 1. Assignment 1 - Hello world! - [[./pre01.org][link]]
-2. Assignment 2 - Data types - [[./pre2.org][link]]
+2. Assignment 2 - Data types - [[./pre02.org][link]]
+3. Assignment 3 
