@@ -1,6 +1,6 @@
 * Assignment 1
 
-Link to assignment walkthrough: [[https://youtu.be/Owqp3MIZG9E][link]] 
+Link to assignment walkthrough video: [[https://youtu.be/Owqp3MIZG9E][link]] 
 
 * First time only setup
 
