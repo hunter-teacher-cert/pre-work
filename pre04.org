@@ -1,6 +1,6 @@
 * Assignment 4 - Arrays
 
-Read section 1.4 from the [[https://introcs.cs.princeton.edu/java/14array/index.php#1.4.1][class text]].
+Read section 1.4 from the [[https://introcs.cs.princeton.edu/java/14array/index.php#1.4.1][Sedgewick / Wayne]].
 
 Arrays in Java are similar to Arrays in Javascript or lists in
 Python. They are, however, more primatave.

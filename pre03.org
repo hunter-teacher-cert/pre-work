@@ -1,6 +1,7 @@
 * Assignment 3 - if statements
 
-Read sections 1.3 from the [[https://introcs.cs.princeton.edu/java/10elements/][text book]]. 
+Read sections 1.3 from the
+[[https://introcs.cs.princeton.edu/java/10elements/][Sedgewick / Wayne]]. 
 
 This section covers conditionals and loops. Java *if* statements look
 pretty much the same as those in Javascript 

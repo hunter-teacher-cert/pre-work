@@ -110,7 +110,7 @@ you through setting everything up.
 
 
 * Java resources
-- [[https://introcs.cs.princeton.edu/java/][CS - Sedgewick / Wayne - class text]]
+- [[https://introcs.cs.princeton.edu/java/][CS - Sedgewick / Wayne]]
 - [[https://horstmann.com/sjsu/cs046/][Intro to Java - Udacity CS046]]
 - [[https://chortle.ccsu.edu/Java5/index.html#03][Intro to CS using Java - Kjell]]
 * Assignments:
