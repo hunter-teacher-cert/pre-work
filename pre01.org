@@ -78,9 +78,9 @@ git commit Hello.java -m "added my first Java program"
 git push
 #+end_src
 
-This material is also covered in 1.1 (1.1.1 and 1.1.2) of the
-[[https://introcs.cs.princeton.edu/java/10elements/][Sedgwick / Wayne]]. Please
-review and consider the questions at the end of the chapter.
+This material is also covered in chapter 1 of [[https://books.trinket.io/thinkjava/chapter1.html][Think Java]] and chapter
+1.1 (1.1.1 and 1.1.2) of the [[https://introcs.cs.princeton.edu/java/10elements/][Sedgwick / Wayne]]. Please review and
+consider the questions at the end of the chapter.
 
 Congratulations again, you've successfully written your first program
 and pushed it to GitHub!!!!!
