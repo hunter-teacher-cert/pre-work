@@ -1,32 +1,60 @@
-* Assignment 4 - Arrays
+* Assignment 4 - Conditionals
 
-Read section 1.4 from the [[https://introcs.cs.princeton.edu/java/14array/index.php#1.4.1][Sedgewick / Wayne]].
+References for this assignment:
+| Reference        | Chapter(s) |
+|------------------+------------|
+| [[https://books.trinket.io/thinkjava/][Think Java]]       |          5 |
+| [[https://introcs.cs.princeton.edu/java/10elements/][Sedgwick / Wayne]] |      1.3.1 |
+| [[https://chortle.ccsu.edu/Java5/index.html#03][Kjell]]            |      12-14 |
 
-Arrays in Java are similar to Arrays in Javascript or lists in
-Python. They are, however, more primatave.
+Read chapter 5 in Think Java.
 
-In Java you have to declare variables with their types so while a Java
-array can hold many items they all have to be of the same type. You
-also have to specify the number of items an array can hold when you
-create it.
+This section covers conditionals. Java *if* statements look
+pretty much the same as those in Javascript 
 
-The following code would create an array that can store 5 integers: 
+* Conditionals
 
 #+begin_src java
-int[] a;
-a = new int[5];
+  // Example A - simple if
+  if (boolean) 
+    statement; 
+
+  // Example B - if with compound statement
+  if (boolean){
+      statement1;
+      statement2;
+      ...;
+      statementn;
+  }
+
+  // Example C - if with else
+  if (boolean){
+      statements;
+  } else {
+      statements;
+  }
+
+  // Example D - if with else chain
+  if (boolean1) {
+      statements;
+  } else if (boolean2) {
+      statements;
+  } else {
+      statements;
+  }
 
 #+end_src
 
-The first one is stored in ~a[0]~ the fifth in ~a[5]~. If you try to
-access an array out of bounds say, a[-1] or a[5] in this case, you'll
-get an error. You also can't print it all in one shot like you can in
-Python or Java. The chapter has the rest of the details.
+In Examples B through D, if you don't have multiple statements in each
+section you don't need that sections curly braces but it's generally
+considered good form to use them. Also, Example D can have any number
+of ~else if~ sections.
 
-* Assignment 
-
-select two exercises from the section that require arrays and write
-solutions. Add them to your assignments repo under the folder ~pre04~
-and push them to GitHub.
+A Python *if* is similar but different due to its use of indentation
+instead of brackets and the explicit elif as opposed to the Java ~else
+if~.
 
 
+* Assignment
+
+There is no assignment for submission for this section.

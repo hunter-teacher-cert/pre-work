@@ -1,126 +1,103 @@
-* Assignment 3 - if statements
+* Assignment 3 - Void methods
 
-Read sections 1.3 from the
-[[https://introcs.cs.princeton.edu/java/10elements/][Sedgewick / Wayne]]. 
+References for this assignment:
+| Reference        | Chapter(s)    |
+|------------------+---------------|
+| [[https://books.trinket.io/thinkjava/][Think Java]]       | 4             |
 
-This section covers conditionals and loops. Java *if* statements look
-pretty much the same as those in Javascript 
+Read Chapter 4 in Think Java.
 
-** Conditionals
-
+While we haven't discussed this yet, Java is an Object Oriented
+language. That means pretty much everything is written inside of a
+Object. Take our Hello.java: 
 #+begin_src java
-  // Example A - simple if
-  if (boolean) 
-    statement; 
+  import java.io.*;
+  import java.util.*;
 
-  // Example B - if with compound statement
-  if (boolean){
-      statement1;
-      statement2;
-      ...;
-      statementn;
+  public class Hello {
+      public static void main(String[] args){
+          System.out.println("Hello world!");
+      }
   }
+#+end_src
 
-  // Example C - if with else
-  if (boolean){
-      statements;
-  } else {
-      statements;
+Take away the two *import* lines at the top and we're left with a class
+named Hello. The  ~main~ that we wrote inside the Hello class is a
+*method*. For those of you with Python or Javascript backgrounds, for
+the time being you can think of a method as a function declared inside
+of a class. 
+
+Let's look at the anatomy of a method
+
+#+begin_src java
+public static RETURNTYPE NAME(ARGUMENTS){
+ BODY
+}
+#+end_src
+
+For now we'll treat *public* and *static* as boilerplate. We'll
+explain them when we get to Objects. The name of the method can be any
+valid identifier. The method name *main* though, has a special
+meaning. It's what the Java Virtual Machine (JVM) runs automatically
+when you run your program. The return type for main is *void*. That
+means it doesn't return any value. For this section we will limit
+ourselves to *void* methods. Here's a program with two
+methods. The first is void and prints out *Hello world!*, the second
+is our required *main* method.
+
+
+#+HEADERS: :classname Hello
+#+begin_src java
+  import java.io.*;
+  import java.util.*;
+
+  public class Hello {
+
+      public static void printHello(){
+          System.out.println("Hello world!");
+      }
+
+      public static void main(String[] args){
+          String s;
+          printHello();
+      }
+	
   }
-
-  // Example D - if with else chain
-  if (boolean1) {
-      statements;
-  } else if (boolean2) {
-      statements;
-  } else {
-      statements;
-  }
-
 #+end_src
 
-In Examples B through D, if you don't have multiple statements in each
-section you don't need that sections curly braces but it's generally
-considered good form to use them. Also, Example D can have any number
-of ~else if~ sections.
+Java does have a *return* statement like other languages but in the
+case of a void method, if you omit it, the function will just return
+to the caller after the last statement. If a void method has and
+encounters a *return* statement, control is immediately returned to
+the caller.
 
-A Python *if* is similar but different due to its use of indentation
-instead of brackets and the explicit elif as opposed to the Java ~else
-if~.
+The last piece of the method are the ARGUMENTS. The ARGUMENTS are a
+list of arguments sent to the method. This acts in the same way as
+arguments to a Python or Javascript function except you have to
+specify types. For example, if you had a Python function f that accepted
+first an integer into parameter ~a~ and a then  string into parameter
+~b~ and returned a string you would write 
 
-** Loops
-*** While
-The Java ~while~ loop is pretty much the same as the javscript or
-Python while 
 
+#+begin_src python
+def f(a,b):
+  # do stuff
+ 
+#+end_src
+
+In Java the corresponding method would be: 
 #+begin_src java
-// Example A
-while (boolean)
-  statement;
+public static void m(int a, String b){
+  // dostuff
 
-// Example B
-while (boolean) {
-  statemnts;
+
 }
 
 #+end_src
 
-While you don't need the brackets if you only have a single statement,
-it's considered bad form to omit them. 
+* Submission
 
-*** for
-
-Java's ~for~ loop is similar to Javscript but not the same as
-Python's. The Python for loop is considered a ~foreach~ loop and we'll
-look at Java's equivalent later.
-
-The Java and Javascript for loops are really just a while loop in
-disguise.
-
-Let's look at this while loop:
-
-#+begin_src java
-a = 1; // INITIALIZION
-while (a < 10){  // TEST
-  do stuff;
-  a = a + 1; // INCREMENT
-}
-
-#+end_src
-
-In addition to the stuff you're doing, there are three basic
-parts. The INITIALIZATION ~a=1~ which sets the starting value of the
-loop variable, the TEST which is ~a<10~ which determines when the loop
-terminates adn the INCREMENT of ~a=a+1~ which changes the value of the
-test so that we eventually exit.
-
-A for loop is of the form: 
-#+begin_src java
-for (INITIALIZATION, TEST, INCREMENT) {
-  do stuff;
-}
-#+end_src
-
-so the above while loop can be rewritten using a for: 
-#+begin_src 
-for (a=1; a<10; a++){
-  do stuff;
-}
-
-#+end_src
-
-That's all it is - just a shorthand for writing a while loop.
-
-
-*** do while
-
-Java also supports a do while but it's used less frequently. The
-chapter will go over the details.
-
-
-* Assignment
-
-Review the exercises in the chapter. Then select three programming
-exercises at least two of which use loops and write solutions. Place
-these under a directory named ~pre03~ in your assignments repo and
-push them up to GitHub.
+Complete exercise 1 from Chapter 4 of Think Java. Either type up your
+answer in a file named answer.txt or write it by hand and scan it into
+answer.pdf. Add the file to a folder named ~pre03~ in the assignments
+repo and push to GitHub.

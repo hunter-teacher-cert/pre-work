@@ -1,26 +1,13 @@
-* Assignment 5 - functions (methods)
+* Assignment 5 - Value Methods
 
-While we haven't discussed this yet, Java is an Object Oriented
-language. That means pretty much everything is written inside of a
-function. Take our Hello.java: 
-#+begin_src java
-  import java.io.*;
-  import java.util.*;
+References for this assignment:
+| Reference        | Chapter(s) |
+|------------------+------------|
+| [[https://books.trinket.io/thinkjava/][Think Java]]       | 6          |
+| [[https://introcs.cs.princeton.edu/java/10elements/][Sedgwick / Wayne]] | 2.1,2.2    |
 
-  public class Hello {
-      public static void main(String[] args){
-          System.out.println("Hello world!");
-      }
-  }
-#+end_src
 
-Take away the two import lines at the top and we're left with a class
-named Hello. The  ~main~ that we wrote inside the Hello class is a
-*method*. For those of you with Python or Javascript backgrounds, for
-the time being you can think of a method as a function declared inside
-of a class. 
-
-Let's look at the anatomy of a method
+Earlier we looked at the anatomy of a method:
 
 #+begin_src java
 public static RETURNTYPE NAME(ARGUMENTS){
@@ -28,15 +15,13 @@ public static RETURNTYPE NAME(ARGUMENTS){
 }
 #+end_src
 
-For now we'll treat *public* and *static* as boilerplate. We'll
-explain them when we get to Objects. The name of the method can be any
-valid identifier. The method name *main* though, has a special
-meaning. It's what the Java Virtual Machine (JVM) runs automatically
-when you run your program. The return type for main is *void*. That
-means it doesn't return any value. Here's a program with two
-methods. The first is void and prints out *Hello world!*. The second
-returns a string containing *Hello world!* which the main program
-prints.
+We discussed all the components except the *RETURNTYPE*. In addition
+to having a *RETURNTYPE* of ~void~ we can specify any other data type
+as the *RETURNTYPE*. In the example below, the method ~returnHello~
+does not output anything. Instead it returns a String value. Note how
+this differs from ~printHello~ which outputs "Hello World!" but
+returns nothing.
+
 
 #+HEADERS: :classname Hello
 #+begin_src java
@@ -63,34 +48,6 @@ prints.
   }
 #+end_src
 
-Notice that we didn't have to explicitly ~return~ from the void
-function but, similar to Javascript and Python, we did have to
-explicitly return a value from ~returnHelo~. We can use the ~return~
-statement in a ~void~ function. Doing so will return to the caller
-immediately. 
-
-The last piece of the method are the ARGUMENTS. The ARGUMENTS are a
-list of arguments sent to the method. This acts in the same way as
-arguments to a Python or Javascript function except you have to
-specify types. For example, if you had a Python function f that accepted
-first an integer into parameter ~a~ and a then  string into parameter
-~b~ and returned a string you would write 
-
-#+begin_src python
-def f(a,b):
-  stuff
-  return "some string"
-#+end_src
-
-In Java the corresponding method would be: 
-#+begin_src java
-public static String m(int a, String b){
-  // stuff
-  return "some string";
-
-}
-
-#+end_src
 
 
 Finally, a method can call another method: 
@@ -123,44 +80,9 @@ Finally, a method can call another method:
   }
 #+end_src
 
-For more details see section 2.1 and 2.2 of the
-[[https://introcs.cs.princeton.edu/java/20functions/][Sedgewick / Wayne]]. 
 
-* Assignment
+* Submission
 
-Create a directory named ~pre05~ in your assignments folder. 
-
-You will write a program named ~Craps.java~ that will play a
-simplified game of craps. 
-
-There should be at least three static methods in addition to ~main~. One
-named ~roll~ which accepts an integer parameter and returns a random
-number between 1 and that number, inclusive. There should also be one
-named ~shoot~ which accepts two parameters - a number of dice and the
-maximum value for those dice and returns the result of rolling those dice. 
-
-The third method should be named ~round~. It should accept no
-parameters and it should return something to indicate if the shooter
-of the round wins or loses.  
-
-A round is played as follows:
-
-The shooter shoots (rolls) the dice. 
-  - If he rolls a 2,3, or 12,that's Craps and he loses.
-  - If he rolls a 7 or 11, that's a Natural and he wins.
-Otherwise:
-  - the value he rolled is now called the Point
-  - the shooter continues to shoot (roll) until he either rolls the
-    Point again at which point he wins or he rolls a 7 at which point
-    he loses. 
-
-The main program should take a parameter from the command line, play
-that many rounds and as it plays indicate each time the shooter wins
-or loses. The program should also print out the status of the rounds
-they occur. 
-
-For more information, here's a great documentary on the subject:
-[[https://www.youtube.com/watch?v=PvpmD6NXPfw][link]]. 
-
-When done, add and push Craps.java to GitHub.
-
+Create a folder named ~pre05~ under the assignment repo. Write a
+program named Methods.java with methods that solve exercises 2, 3, and
+8 from Chapter 6 in Think Java.

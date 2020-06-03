@@ -4,8 +4,12 @@ Link to assignment walkthrough video: [[https://youtu.be/Owqp3MIZG9E][link]]
 
 * First time only setup
 
-If you haven't accepted the GitHub classroom assignment yet, do so by
-following this [[https://classroom.github.com/a/LQFq7rWm][link]].
+- If you are enrolled in Hunter College's CS Teacher Certification
+  Program accept this GitHub assignment by following this  [[https://classroom.github.com/a/LQFq7rWm][link]].
+- If you are not yet enrolled but are completing this prework in
+  advance of the program, accept this GitHub assignment by following
+  this link.
+
 
 Once finished, click on the repo link (or go to your GitHub account
 and then to this new repo). clone by doing the following:
@@ -78,9 +82,14 @@ git commit Hello.java -m "added my first Java program"
 git push
 #+end_src
 
-This material is also covered in chapter 1 of [[https://books.trinket.io/thinkjava/chapter1.html][Think Java]] and chapter
-1.1 (1.1.1 and 1.1.2) of the [[https://introcs.cs.princeton.edu/java/10elements/][Sedgwick / Wayne]]. Please review and
-consider the questions at the end of the chapter.
+References for this assignment:
+| Reference        | Chapter(s)   |
+|------------------+--------------|
+| [[https://books.trinket.io/thinkjava/][Think Java]]       | 1            |
+| [[https://introcs.cs.princeton.edu/java/10elements/][Sedgwick / Wayne]] | 1.1.1, 1.1.2 |
+| [[https://chortle.ccsu.edu/Java5/index.html#03][ Kjell]]           | 1 through 7  |
+
+ Please review and consider the questions at the end of the chapters.
 
 Congratulations again, you've successfully written your first program
 and pushed it to GitHub!!!!!
