@@ -113,14 +113,16 @@ you through setting everything up.
 
 - Think Java (Downy, Mayfield): [[http://greenteapress.com/thinkjava6/html/index.html][Text]], [[https://books.trinket.io/thinkjava/][Interactive Text]]
 - [[https://introcs.cs.princeton.edu/java/][CS - Sedgewick / Wayne]]
-- [[https://horstmann.com/sjsu/cs046/][Intro to Java - Udacity CS046]]
 - [[https://chortle.ccsu.edu/Java5/index.html#03][Intro to CS using Java - Kjell]]
+- [[https://horstmann.com/sjsu/cs046/][Intro to Java - Udacity CS046]]
+
 
 * Assignments:
 1. Assignment 1 - Hello world! - [[./pre01.org][link]]
 2. Assignment 2 - Data types - [[./pre02.org][link]]
-3. Assignment 3 - Conditionals and loops - [[./pre03.org][link]]
-4. Assignment 4 - Arrays - [[./pre04.org][link]]
-5. Note - chapter 1.5 of the text concerns graphics and is optional
-6. Review chapter 1.6 from the text - nothing to submit.
-7. Assignment 5 - functions (methods) - [[./pre05.org][link]]
+3. Assignment 3 - Void methods - [[./pre03.org][link]]
+3. Assignment 4 - Conditionals - [[./pre04.org][link]]
+4. Assignment 5 - Value methods - [[./pre05.org][link]]
+5. Assignment 6 - Loops  - [[./pre06.org][link]]
+4. Assignment 7 - Arrays - [[./pre07.org][link]]
+7. Assignment 8 - Final project - [[./pre05.org][link]]
