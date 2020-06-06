@@ -18,7 +18,7 @@
 
 3. Set up GitHub ssh keys.
 
-   Follow this video walkthrough: [[https://youtu.be/AUFFudCXo0M][video]]{:target="_blank"}
+   Follow this video walkthrough: [[https://youtu.be/AUFFudCXo0M][video]]
 
 
 * Learn the basics of Git and GitHub
