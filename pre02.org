@@ -15,7 +15,7 @@ Javascript in that you have to declare variables before you use them
 and in that declaration tell the compiler what type of data they'll
 represent. 
 
-For example in Python, if you wanted to use a variable ~inval~ to hold
+For example in Python, if you wanted to use a variable ~intval~ to hold
 an integer value and ~doubval~ a floating point number you could just
 write:
 
