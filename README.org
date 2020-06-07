@@ -7,7 +7,7 @@
 
    - [[https://youtu.be/l6AQNTqSDS8][Windows 10]]
    - Mac
-   - Linux
+   - [[https://youtu.be/dAVbMIe7UJA][Linux]]
 
 2. Set up git and GitHub. 
    - *Linux* - git should be installed. If it isn't and you're using
