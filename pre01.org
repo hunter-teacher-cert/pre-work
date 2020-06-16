@@ -4,11 +4,7 @@ Link to assignment walkthrough video: [[https://youtu.be/Owqp3MIZG9E][link]]
 
 * First time only setup
 
-- If you *are* enrolled in Hunter College's CS Teacher Certification
-  Program accept this GitHub assignment by following this  [[https://classroom.github.com/a/LQFq7rWm][link]].
-- If yyou *have not yet* been accepted or enrolled but are completing this prework in
-  advance of the program, accept this GitHub assignment by following
-  this [[https://classroom.github.com/a/BKJdJVBT][link]].
+- Accept this GitHub assignment by following this  [[https://classroom.github.com/a/LQFq7rWm][link]].
 
 
 Once finished, click on the repo link (or go to your GitHub account
