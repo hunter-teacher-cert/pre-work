@@ -39,12 +39,13 @@ commands. Some of them do far more than what's described.
 | Command  | Description                        | Example                      |
 |----------+------------------------------------+------------------------------|
 | clone    | make a local copy of a remote repo | git clone repoaddress        |
-| add      | adds a file to the repository      | git add Hello.java           |
-| rm       | removes / deletes a file           | git rm Hello.java            |
+| status   | show useful info about repo state  | git status                   |
+| add      | add a file to the repository       | git add Hello.java           |
+| rm       | remove / delete a file             | git rm Hello.java            |
 | mv       | rename / move a file               | git mv oldname newname       |
 | commit   | record changes to the local repo   | git commit file -m "message" |
-| push     | Push pending changes to GitHub     | git push                     |
-| pull     | Retrieve newer changes from GitHub | git pull                     |
+| push     | push pending changes to GitHub     | git push                     |
+| pull     | retrieve newer changes from GitHub | git pull                     |
 | reset    | unstage a commit                   | git reset filename           |
 | checkout | revert a file to last commit       | git checkout filename        |
 
