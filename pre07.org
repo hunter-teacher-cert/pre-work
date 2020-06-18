@@ -14,7 +14,7 @@ References for this assignment:
 Read chapter 8 from the Think Java.
 
 Arrays in Java are similar to Arrays in Javascript or lists in
-Python. They are, however, more primatave.
+Python. They are, however, more primitave.
 
 In Java you have to declare variables with their types so while a Java
 array can hold many items they all have to be of the same type. You
@@ -29,7 +29,7 @@ a = new int[5];
 
 #+end_src
 
-The first one is stored in ~a[0]~ the fifth in ~a[5]~. If you try to
+The first one is stored in ~a[0]~ the fifth in ~a[4]~. If you try to
 access an array out of bounds say, a[-1] or a[5] in this case, you'll
 get an error. You also can't print it all in one shot like you can in
 Python or Java. The chapter has the rest of the details.
