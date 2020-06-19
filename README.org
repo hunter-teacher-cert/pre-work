@@ -4,6 +4,8 @@
 
 1. First install the Java Development Kit. Here are videos stepping
    you through the process:
+   
+   *Note:* If you already have either the Java runtime or development kit installed you probably want to uninstall them if they're not the latest versions. You can check to see the version by running ~java --version~ to see the version of the java runtime and ~javac --version~ to see the jdk version. If the commands aren't found, they aren't installed. If they give an error you probably have an old version. On Windows, you can find information on removing them [[https://java.com/en/download/help/uninstall_java.xml][here]]
 
    - [[https://youtu.be/l6AQNTqSDS8][Windows 10]]
    - [[https://youtu.be/jIBHjaW0OtY][Mac]]
