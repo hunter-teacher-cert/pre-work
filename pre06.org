@@ -89,6 +89,9 @@ chapter will go over the details.
 
 Create a directory named pre06 under your assignments repo. Write a
 program named ~Loops.java~ which has solutions to excercises 3, 4, and
-5 from chapter 7 of Think Java.
+5 from chapter 7 of Think Java. 
+
+*NOTE:* When computers calculate non integers, values only accurate to a certain number of decimal places. This means that your answers will probably not be exact all the way to the full expansion.
+
 
 
