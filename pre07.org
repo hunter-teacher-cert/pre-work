@@ -38,6 +38,6 @@ Python or Java. The chapter has the rest of the details.
 
 Create a directory named pre07 under your assignments repo. 
 
-Write a program named Arrays.java and in it solve exercises 1, 4 and 5
+Write a program named ArrayExample.java and in it solve exercises 1, 4 and 5
 from chapter 8 in Think Java.
 
