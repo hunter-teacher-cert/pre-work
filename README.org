@@ -58,6 +58,7 @@ commands. Some of them do far more than what's described.
 - ~git add~ when you are adding a new file
 - ~git rm~ when you're deleting a file
 - ~git mv~ when you need to move or rename a file
+- ~git status~ whenever you want to see current status of repo
 *** Typical day to day flow.
 - when you start: change into the repo directory and issue a ~git pull~
 - as you work
