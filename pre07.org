@@ -14,7 +14,7 @@ References for this assignment:
 Read chapter 8 from the Think Java.
 
 Arrays in Java are similar to Arrays in Javascript or lists in
-Python. They are, however, more primitave.
+Python. They are, however, more primative.
 
 In Java you have to declare variables with their types so while a Java
 array can hold many items they all have to be of the same type. You
