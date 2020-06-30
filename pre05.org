@@ -3,8 +3,8 @@
 References for this assignment:
 | Reference        | Chapter(s) |
 |------------------+------------|
-| [[https://books.trinket.io/thinkjava/][Think Java]]       | 6          |
-| [[https://introcs.cs.princeton.edu/java/10elements/][Sedgwick / Wayne]] | 2.1,2.2    |
+| [[https://books.trinket.io/thinkjava/chapter6.html][Think Java]]       | 6          |
+| [[https://introcs.cs.princeton.edu/java/20functions/][Sedgwick / Wayne]] | 2.1,2.2    |
 
 
 Earlier we looked at the anatomy of a method:
